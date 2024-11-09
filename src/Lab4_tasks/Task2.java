@@ -1,8 +1,8 @@
 package Lab4_tasks;
 
 class Table implements Runnable{
-    private String[] data;
-    private String[] columnNames;
+    private final String[] data;
+    private final String[] columnNames;
 
     public Table(String[] columnNames, String[] data) {
         this.columnNames = columnNames;
